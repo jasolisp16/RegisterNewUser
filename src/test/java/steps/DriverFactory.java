@@ -12,4 +12,9 @@ public class DriverFactory {
         //System.setProperty("webdriver.gecko.driver", "C:\\webDriver\\geckodriver.exe");
         //driver = new FirefoxDriver();
     }
+
+    public String getProjectPath() {
+        String projectLocation = System.getProperty("user.dir");
+        return projectLocation;
+    }
 }
